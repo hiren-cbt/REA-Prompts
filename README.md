@@ -7,7 +7,7 @@ Prompts are ready to paste into your agent. Replace everything in `<angle bracke
 ## Sources & credits
 
 - **REA tools & guides:** https://rea.tools/
-- **Official prompt gallery:** https://madewithrea.com/prompts
+- **Community prompt gallery:** https://madewithrea.com/prompts
 - **Intro thread ("REA is the most dangerous thing on the internet right now")** by codila — https://x.com/0xCodila/status/2109623431763292649
   (quoting Matthew Berman — https://x.com/MatthewBerman/status/2108245653843509415)
 
@@ -32,7 +32,7 @@ Prompts are ready to paste into your agent. Replace everything in `<angle bracke
 | 14 | [Software cracking research](#14-software-cracking-research) |
 | 15 | [Version comparison & crash work](#15-version-comparison--crash-work) |
 | 16 | [Long-running investigations](#16-long-running-investigations) |
-| — | [Wildcard prompt](#wildcard-prompt-start-here) · [Prompt-writing tips](#prompt-writing-tips-why-these-work) |
+| — | [Wildcard prompt](#wildcard-prompt-start-here) · [Prompt-writing tips](#prompt-writing-tips-why-these-work) · [Next steps](#next-steps-see-what-people-built-with-rea) |
 
 > ⚠️ **Use responsibly.** Only analyze software you own or are explicitly authorized to test. Anti-cheat, DMA, DRM, kernel and vulnerability prompts below are for **security research, interoperability, CTFs, bug bounties and testing the protection of your own software**. Bypassing protection of software you don't own, cheating in online games, or weaponizing a found vulnerability may violate law and terms of service. Every prompt asks the agent to separate *confirmed facts* from *hypotheses* and to cite evidence — treat that as non-negotiable.
 
@@ -731,6 +731,13 @@ propose tests to verify it.
 4. **Static first.** Say "do not execute the application" until you actually need runtime observation.
 5. **End with a deliverable.** SPEC.md, a reader script, a port plan, a minimal rebuild — a concrete artifact forces the agent to verify its own claims.
 6. **State the scope out loud.** "Lab machine I own", "offline single-player", "document, don't bypass" — the framing keeps results usable for research and reporting.
+
+## Next steps: see what people built with REA
+
+Ran one of these prompts? See what others are doing with REA at **[madewithrea.com](https://madewithrea.com)**, a community directory of REA investigations, rebuilds, integrations and tools, sorted by use case (native binaries, Android, games, firmware, Electron and more).
+
+- Browse real builds for ideas on what to point REA at next.
+- Built something with a prompt from this repo? [Submit the link](https://madewithrea.com/submit) to get it listed.
 
 ## License
 
